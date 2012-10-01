@@ -1,0 +1,16 @@
+Java Webscraper
+
+Insert URL(s) into GUI and the beginning and end of a string you're looking to scrape.
+
+--EXAMPLE HTML--
+<div>
+	<p>Scraping</p>
+	<p id='foo'>bar</p>
+</div>
+-----------------
+
+--EXAMPLE INPUT--
+Begin: 	<p id='foo'>
+End:	</p>
+
+OUTPUT: bar
